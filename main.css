@@ -1,0 +1,519 @@
+@import url(https://fonts.google.com/specimen/Racing+Sans+One?query=racing);
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    font-family: 'Montserrat',sans-serif;
+}
+
+.main{
+    width: 100%;
+
+    background: url("image/bike-hero.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+  
+    
+}
+
+.mountain-bike{
+    width: 100%;
+  
+    background: url("image/moutain-bike.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+  
+    
+}
+
+.city-bike{
+    width: 100%;
+  
+    background: url("image/city-bike.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+  
+    
+}
+
+.city-bike{
+    width: 100%;
+  
+    background: url("image/city-bike.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+  
+    
+}
+.speclyti-bike{
+    width: 100%;
+  
+    background: url("image/speciality-bike.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(rgb(174 26 17 / 49%) 50%, #000000a6 50%);
+    color: #fff;
+    padding-bottom: 200px;
+}
+
+
+.bg-light {
+    --bs-bg-opacity: 0!important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-expand-lg .navbar-nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-link {
+  
+    padding:8px 20px!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+   
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+    font-size: 25px;
+    background-color: white;
+}
+
+.shopnow{
+    padding: 10px 20px;
+    border:none;
+}
+
+
+
+.main-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Racing Sans One',display;
+}
+
+.title-name{
+    text-transform: uppercase;
+    font-family: 'Racing Sans One',display;
+    font-size: 85px;
+
+}
+
+.main-name{
+    margin-top: 80px;
+}
+
+.specifications{
+    text-transform: uppercase;
+    font-family: 'Racing Sans One',display;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.iconname{
+    font-size: 10px;
+    padding-right: 10px;
+    
+}
+
+.name-icon{
+    font-size: 20px;
+}
+
+/* menu name */
+
+.menu-name{
+    width: 100%;
+   
+    padding: 100px 0px;
+ 
+}
+
+.menu-title{
+    font-family: 'Racing Sans One',display;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.main-sub-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.buynow{
+    background-color: #df453e;
+    color: white;
+    width: 168px;
+    padding: 15px 40px;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.list-bike{
+    padding: 20px;
+}
+
+.cards{
+    overflow: hidden;
+    width: calc(25% - 30px);
+    margin-left: 30px;
+ 
+}
+
+.card-image{
+    margin-bottom: 15px;
+}
+
+.Bicycles{
+    font-size: 20px;
+    color: gray;
+}
+
+.bike-name{
+    font-size: 20px;
+    font-family: 'Racing Sans One',display;
+    margin: 10px 0px;
+}
+
+.card-icon{
+    color: #df453e;
+}
+
+.money{
+    font-size: 20px;
+}
+
+.mountain-bike{
+
+    width: 100%;
+    height: 100%;
+    background: url("image/moutain-bike.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.mountain-colo{
+    width: 100%;
+}
+
+.mountain-colo{
+    background-image: linear-gradient(180deg,#04020269 0%,#161616 100%);
+    opacity: 0.98;
+    
+}
+
+
+.mountain-content{
+    color: white;
+    display: flex;
+}
+
+.mountain{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+
+.top-content{
+    font-size: 25px;
+    font-family: 'Racing Sans One',display;
+    margin-bottom: 40px;
+}
+
+.top-name{
+    font-size: 55px;
+    font-family: 'Racing Sans One',display;
+    margin-bottom: 40px;
+
+}
+
+.mountain-list{
+    display: flex;
+    margin: 40px 0px;
+}
+
+.mt-sl{
+    margin-right : 30px;
+}
+
+.exflo{
+    width: 220px;
+    font-size: 20px;
+    padding: 10px 40px; 
+    color: white;
+    background-color: #df453e;
+
+}
+
+.n-icon{
+    color: #df453e;
+    font-size: 20px;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.cln{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.chose-im-2{
+    width: 45%;
+    height: 330px;
+    background: url("image/specification-1.jpg") no-repeat;
+    background-size: cover  ;
+   
+}
+
+.c-im-cl{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,#04020269 0%,#161616 100%);
+    opacity: 0.98;
+    background-color: transparent;
+    
+}
+
+.chose-im-3{
+    width: 45%;
+    height: 330px;
+    background: url("image/specification-2.jpg") no-repeat;
+    background-size: cover  ;
+
+}
+
+.chose-image2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.chose{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.c-top-tt{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Racing Sans One',display;
+    padding-bottom: 50px;
+}
+
+.chose-im-4{
+    width: 30%;
+    height: 200px;
+    background: url("image/specification-3.jpg") no-repeat;
+    background-size: cover  ;
+    
+   
+}
+
+.chose-im-5{
+    width: 30%;
+    height: 200px;
+    background: url("image/specification-4.jpg") no-repeat;
+    background-size: cover  ;
+   
+}
+
+.chose-im-6{
+    width: 30%;
+    height: 200px;
+    background: url("image/specification-5.jpg") no-repeat;
+    background-size: cover  ;
+   
+}
+
+.cal{
+    padding-top: 20px;
+}
+
+.c-im-content{
+    padding: 200px 0px 0px 20px;
+    color: white;
+}
+
+.c-im-title{
+    font-family: 'Racing Sans One';
+    font-size: 40px;
+ 
+
+     
+    
+}
+
+.c-im-gh{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.c-im-hh{
+    font-family: 'Racing Sans One';
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+    font-size: 30px;
+}
+
+.text-content{
+    padding: 120px 30px 0px;
+  
+}
+
+.text{
+    font-family: 'Racing Sans One';
+    font-size: 70px;
+    text-align: center;
+    padding: 40px 0px;
+ 
+}
+.shop-header {
+    width: 100%;
+    height: 78px;
+    background-color: rgb(223, 69, 62);
+}
+.star-rating {
+    font-size: 1rem;
+}
+.navbar-brand {
+    padding-left: 100px;
+}
+.shop-shopnow {
+    padding-right: 100px;
+}
+.shop-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: #e9ecef;
+    align-items: center;
+
+}
+h2 {
+    font-weight: 300;
+    font-family: "Racing Sans One",display;
+    text-transform: uppercase;
+
+}
+.shop-main-container {
+   width: 80%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 50px;
+
+}
+.border-head {
+    float: left;
+}
+.shop-order {
+    float: right;
+    margin-top: 65px;
+}
+.product-0 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    flex-direction: column;
+    margin: 5px;
+
+}
+.product {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    ustify-content: center;
+}
+.pro-img{
+    width: 100%;
+}
+.shop-main-container {
+    width: 80%;
+    padding: 40px;
+
+
+}
+.shop-nav-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Racing Sans One";
+}
+.shop-nav-header:hover {
+    color: red;
+}
+.shop-area {
+    width: 100%;
+    padding:  0 30px 0 20px;
+}
+footer, .footer1 {
+    width: 100%;
+    background: #000000;
+}
+.footer1 {
+    padding: 100px 120px 100px 80px;
+    border-bottom: 0.5px solid #5c636a;
+}
+.f-content, .f-icon {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.f-link-c {
+    list-style: none;
+}
+.f-links-content {
+    margin: 10px;
+
+}
+.category {
+    font-size: 13px;
+    color: #9aa2aa;
+}
+.f-link-c .f-content:hover {
+    color: red;
+}
+ul {
+    padding-left: 0!important;
+}
+.footer2 {
+    padding: 30px 80px 30px 80px;
+}
+.f-copy {
+    font-size: 90%;
+}
