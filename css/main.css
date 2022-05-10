@@ -13,7 +13,7 @@ body{
 .main{
     width: 100%;
 
-    background: url("image/bike-hero.jpg") no-repeat center fixed;
+    background: url("../image/bike-hero.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
   
@@ -23,7 +23,7 @@ body{
 .mountain-bike{
     width: 100%;
   
-    background: url("image/moutain-bike.jpg") no-repeat center fixed;
+    background: url("../image/moutain-bike.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
   
@@ -33,7 +33,7 @@ body{
 .city-bike{
     width: 100%;
   
-    background: url("image/city-bike.jpg") no-repeat center fixed;
+    background: url("../image/city-bike.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
   
@@ -43,7 +43,7 @@ body{
 .city-bike{
     width: 100%;
   
-    background: url("image/city-bike.jpg") no-repeat center fixed;
+    background: url("../image/city-bike.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
   
@@ -52,7 +52,7 @@ body{
 .speclyti-bike{
     width: 100%;
   
-    background: url("image/speciality-bike.jpg") no-repeat center fixed;
+    background: url("../image/speciality-bike.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
 
@@ -211,7 +211,7 @@ body{
 
     width: 100%;
     height: 100%;
-    background: url("image/moutain-bike.jpg") no-repeat center fixed;
+    background: url("../image/moutain-bike.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -286,7 +286,7 @@ body{
 .chose-im-2{
     width: 45%;
     height: 330px;
-    background: url("image/specification-1.jpg") no-repeat;
+    background: url("../image/specification-1.jpg") no-repeat;
     background-size: cover  ;
    
 }
@@ -303,7 +303,7 @@ body{
 .chose-im-3{
     width: 45%;
     height: 330px;
-    background: url("image/specification-2.jpg") no-repeat;
+    background: url("../image/specification-2.jpg") no-repeat;
     background-size: cover  ;
 
 }
@@ -330,7 +330,7 @@ body{
 .chose-im-4{
     width: 30%;
     height: 200px;
-    background: url("image/specification-3.jpg") no-repeat;
+    background: url("../image/specification-3.jpg") no-repeat;
     background-size: cover  ;
     
    
@@ -339,7 +339,7 @@ body{
 .chose-im-5{
     width: 30%;
     height: 200px;
-    background: url("image/specification-4.jpg") no-repeat;
+    background: url("../image/specification-4.jpg") no-repeat;
     background-size: cover  ;
    
 }
@@ -347,7 +347,7 @@ body{
 .chose-im-6{
     width: 30%;
     height: 200px;
-    background: url("image/specification-5.jpg") no-repeat;
+    background: url("../image/specification-5.jpg") no-repeat;
     background-size: cover  ;
    
 }
@@ -408,10 +408,10 @@ body{
     font-size: 1rem;
 }
 .navbar-brand {
-    padding-left: 100px;
+    padding-left: 125px;
 }
 .shop-shopnow {
-    padding-right: 100px;
+    padding-right: 130px;
 }
 .shop-main {
     display: flex;
@@ -472,7 +472,7 @@ h2 {
     font-family: "Racing Sans One";
 }
 .shop-nav-header:hover {
-    color: red;
+    color: rgb(223, 69, 62);
 }
 .shop-area {
     width: 100%;
@@ -506,7 +506,7 @@ footer, .footer1 {
     color: #9aa2aa;
 }
 .f-link-c .f-content:hover {
-    color: red;
+    color: rgb(223, 69, 62);
 }
 ul {
     padding-left: 0!important;
@@ -516,4 +516,23 @@ ul {
 }
 .f-copy {
     font-size: 90%;
+}
+/*Button page*/
+.s-button {
+    margin-top: 60px;
+}
+.s-button-slide {
+    border: 1px solid rgb(223, 69, 62);
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: rgb(223, 69, 62);
+    position: relative;
+}
+.s-button-slide:hover{
+    background-color: rgb(223, 69, 62) ;
+    color: #FFFFFF;
+}
+.active {
+    background: rgb(223, 69, 62);
+    color: #FFFFFF;
 }
